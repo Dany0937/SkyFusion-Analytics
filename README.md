@@ -22,16 +22,3 @@ Base de datos	PostgreSQL + PostGIS
 Contenedores	Docker
 Gestión de Proyectos	Git, GitHub, Trello
 
-Exportar a Hojas de cálculo
-Estructura del Repositorio
-El repositorio está organizado en directorios que reflejan nuestra arquitectura de microservicios:
-
-/Skyfusion-Analytics
-├── /analisis-service        # Lógica principal y orquestación
-├── /datos-satelitales-service  # Ingesta y gestión de datos geoespaciales
-├── /modelado-service        # Lógica del modelo de IA (entrenamiento y predicción)
-├── /reportes-service        # Generación y gestión de reportes
-├── /frontend               # Código de la interfaz de usuario
-├── /.github                # Flujos de trabajo de CI/CD (futuro)
-├── /docs                   # Documentación del proyecto
-└── README.md
